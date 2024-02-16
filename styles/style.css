@@ -1,0 +1,80 @@
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    margin: 25px 40px;
+}
+
+#text_gallery {
+    margin-left: 2S0px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery img {
+    float: left;
+    margin: 70px 25px;
+    width: 60%;
+    height: 60%;
+}
+
+.about {
+    float: right;
+    margin-top: 150px;
+    margin-left: 90px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+    width: 325px;
+}
+
+.contact {
+    float: right;
+    display: inline-block;
+    text-align: left;
+}
+
+.contact p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #ccc;
+    padding: 30px;
+}
+
+.copyright {
+    display: inline-block;
+    text-align: left;
+}
